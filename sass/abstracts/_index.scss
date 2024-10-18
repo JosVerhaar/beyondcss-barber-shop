@@ -1,6 +1,10 @@
-@forward "breakpoints";
-@forward "colors";
-@forward "functions";
-@forward "mixins";
-@forward "sizes";
-@forward "typography";
+// Globals
+@forward "globals/breakpoints";
+@forward "globals/colors";
+@forward "globals/functions";
+@forward "globals/mixins";
+@forward "globals/sizes";
+@forward "globals/typography";
+
+// Tokens
+// @forward "tokens/cards";
