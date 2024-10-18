@@ -37,15 +37,3 @@ $size-15: 10rem;
 $size-fluid-1: clamp($size-2, 2vw, $size-4);
 $size-fluid-2: clamp($size-4, 4vw, $size-6);
 // etc
-
-$hero-padding: clamp(15rem, 15vh, 20rem);
-$section-padding: clamp(3rem, 10vh, 7rem);
-
-$card-body-padding: clamp(2rem, 3.5vw, 5rem);
-
-$grid-gap: 1.5rem;
-$flex-group-gap: 1rem;
-
-$container-inline-padding: 1rem;
-$container-max-width: 60rem;
-$container-max-width-wide: 75rem;
