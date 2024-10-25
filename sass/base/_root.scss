@@ -8,6 +8,14 @@
         }
     }
 
+    @media (prefers-color-scheme: dark) {
+        @each $color, $shade-map in $dark { 
+            @each $shade, $value in $shade-map {
+            --#{$color}-#{$shade}: #{$value};
+            }
+        }
+    }
+
     // font-sizes
     @each $screen-size, $size-map in $font-sizes {
         @if $screen-size == small {
