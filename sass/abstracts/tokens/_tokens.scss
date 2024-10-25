@@ -5,7 +5,8 @@
 
 // Theme
 //
-$active-theme: $light;
+// $active-theme: $light;
+$active-theme: $dark;
 
 
 
@@ -13,7 +14,7 @@ $active-theme: $light;
 //
 $color-text-default: $color-primary-700;
 $color-background-default: $color-primary-100;
-$color-text-interactive-default: $clr-accent-400;
+$color-text-interactive-default: $color-accent-400;
 $color-text-interactive-hover: $color-accent-500;
 
 $letter-spacing-loose: .16em;
@@ -125,7 +126,6 @@ $navigation-color-hover: $color-primary-300;
 $navigation-font-family: $font-family-accent;
 $navigation-font-size: $font-size-400;
 $navigation-font-weight: $font-weight-bold;
-$navigation-letter-spacing: $letter-spacing-wide;
 $navigation-spacing: $size-9;
 
 
