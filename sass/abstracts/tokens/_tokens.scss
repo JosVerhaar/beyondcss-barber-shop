@@ -5,8 +5,7 @@
 
 // Theme
 //
-// $active-theme: $light;
-$active-theme: $dark;
+$active-theme: $dark; // $dark || $light
 
 
 
@@ -18,6 +17,17 @@ $color-text-interactive-default: $color-accent-400;
 $color-text-interactive-hover: $color-accent-500;
 
 $letter-spacing-loose: .16em;
+
+
+
+// Logo
+//
+$logo-fill-default: $color-primary-400;
+$logo-fill-header: $color-primary-300;
+$logo-fill-footer: $color-accent-400;
+$logo-size-default: 15rem;
+$logo-size-header: $logo-size-default;
+$logo-size-footer: $logo-size-default;
 
 
 
