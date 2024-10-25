@@ -14,6 +14,20 @@ $letter-spacing-loose: .16em;
 
 
 
+// Border Radius
+//
+$border-radius-1: $size-2;
+$border-radius-2: $size-4;
+
+
+
+// Shadows
+//
+$box-shadow-1: 0 $size-1 $size-4 rgb(0 0 0 / .05);
+$box-shadow-2: 0 $size-1 $size-4 rgb(0 0 0 / .15);
+
+
+
 // Body
 //
 $body-font-family: $font-family-base;
@@ -53,7 +67,7 @@ $button-font-family: $body-font-family;
 $button-font-size: $body-font-size;
 $button-padding: .75em 2em;
 $button-border: 0;
-$button-border-radius: $size-2;
+$button-border-radius: $border-radius-1;
 
 $button-accent-color: $color-neutral-100;
 $button-accent-background: $color-accent-400;
@@ -82,8 +96,7 @@ $card-heading-font-weight: $font-weight-bold;
 $card-heading-letter-spacing: $letter-spacing-loose;
 $card-heading-line-height: 1;
 $card-heading-text-transform: uppercase;
-
-
-
+$card-border-radius: $border-radius-2;
+$card-box-shadow: $box-shadow-1;
 
 

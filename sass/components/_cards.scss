@@ -9,6 +9,9 @@
   color: $card-color-default;
   line-height: $card-line-height;
 
+  border-radius: $card-border-radius;
+  box-shadow: $card-box-shadow;
+
   &__heading {
     @include heading(
       $card-heading-font-size,
